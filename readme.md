@@ -6,7 +6,7 @@
 
 ```
 ChatSQL/
-├── ChatSQL_Frontend/          # 前端项目
+├── ChatSQLFrontend/          # 前端项目
 │   ├── src/
 │   │   ├── App.vue           # 主应用组件
 │   │   ├── main.js           # 应用入口
@@ -26,7 +26,7 @@ ChatSQL/
 
 ### 前端功能
 - 数据库连接配置（支持MySQL、SQL Server）
-- Ollama模型设置（模型名称、温度、最大令牌数）
+- Ollama模型设置（模型API链接、名称、温度、最大令牌数）
 - 连接数据库并获取元数据
 - 自然语言输入框
 - 执行查询并显示结果
