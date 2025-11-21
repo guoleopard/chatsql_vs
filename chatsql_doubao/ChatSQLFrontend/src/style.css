@@ -1,0 +1,95 @@
+/* 全局样式重置 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+  background-color: #f5f7fa;
+  color: #303133;
+  line-height: 1.6;
+}
+
+#app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* 通用组件样式 */
+.el-container {
+  height: 100vh;
+}
+
+.el-header {
+  background-color: #fff;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  padding: 0 20px;
+}
+
+.el-main {
+  padding: 20px;
+}
+
+.el-footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  color: #909399;
+}
+
+/* 表单样式 */
+.el-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+.el-form-item {
+  margin-bottom: 20px;
+}
+
+/* 按钮样式 */
+.el-button {
+  margin-right: 10px;
+}
+
+/* 表格样式 */
+.el-table {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* 输入框样式 */
+.el-input__wrapper {
+  border-radius: 8px;
+}
+
+/* 选择器样式 */
+.el-select__wrapper {
+  border-radius: 8px;
+}
+
+/* 文本区域样式 */
+.el-textarea__wrapper {
+  border-radius: 8px;
+}
+
+/* 加载动画 */
+.el-loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
